@@ -19,7 +19,15 @@ public abstract class Movement : MonoBehaviour
         nextDirection = Vector2.zero;
 
     }
+    private void Update()
+    {
 
+        if (nextDirection != Vector2.zero)
+        {
+
+            SetDirection(nextDirection);
+        }
+    }
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -28,18 +36,13 @@ public abstract class Movement : MonoBehaviour
 
         rb.MovePosition(position + translation);
 
-        if(nextDirection != Vector2.zero)
-        {
-
-            SetDirection(nextDirection);
-        }
 
         ChildUpdate();
     }
 
     private bool Occupied(Vector2 newDirection)
     {
-    RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * 0.75f, 0f, newDirection, 1.5f, obstacleLayer);
+    RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * 0.75f, 0f, newDirection, 2f, obstacleLayer);
     return hit.collider != null;
     }
 

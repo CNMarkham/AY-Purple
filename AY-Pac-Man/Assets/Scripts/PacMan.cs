@@ -7,7 +7,7 @@ public class PacMan : Movement
    protected override void ChildUpdate()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
         if(horizontal != 0 || vertical != 0)
         {
