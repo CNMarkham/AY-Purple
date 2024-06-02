@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Pellet : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Pacman"))
+        if (collision.gameObject.CompareTag("Tag 0"))
         {
 
             Eat();
