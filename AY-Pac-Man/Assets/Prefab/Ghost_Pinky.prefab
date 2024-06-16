@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Pinky
       objectReference: {fileID: 0}
+    - target: {fileID: 5542810308535846989, guid: d2655cd9a311d5d448ce290e3b163833, type: 3}
+      propertyPath: homeDuration
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 7623014265352251805, guid: d2655cd9a311d5d448ce290e3b163833, type: 3}
       propertyPath: m_Color.b
       value: 0.4509434

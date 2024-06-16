@@ -11,7 +11,6 @@ public class PacMan : Movement
 
         if(horizontal != 0 || vertical != 0)
         {
-
             SetDirection(new Vector2(horizontal, vertical));
         }
 

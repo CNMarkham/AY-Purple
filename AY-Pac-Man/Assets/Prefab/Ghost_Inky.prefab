@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost_Inky
       objectReference: {fileID: 0}
+    - target: {fileID: 5961527544603257704, guid: 287dde7368ad5764ba74a1d0a04d61f2, type: 3}
+      propertyPath: homeDuration
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8276611592236780215, guid: 287dde7368ad5764ba74a1d0a04d61f2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.11

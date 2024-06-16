@@ -14,7 +14,7 @@ public class PowerPellet : Pellet
         foreach (GameObject ghost in ghosts)
         {
 
-
+            ghost.GetComponent<Ghost>().Frighten();
         }
     }
 }
