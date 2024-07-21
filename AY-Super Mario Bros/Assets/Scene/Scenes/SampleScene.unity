@@ -180,6 +180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236,6 +240,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -306,6 +314,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -389,6 +401,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -949,6 +965,10 @@ PrefabInstance:
       value: HardBlock
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -965,6 +985,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 1302651243925573843, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
   m_PrefabInstance: {fileID: 143158472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &157781367 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3827550038024221949, guid: 9b7a4c039e0ca4e4b85f19d025553151, type: 3}
+  m_PrefabInstance: {fileID: 393102591}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &164642914
 PrefabInstance:
@@ -1017,6 +1042,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1096,6 +1125,10 @@ PrefabInstance:
       propertyPath: m_DrawMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1158,6 +1191,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1219,6 +1256,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1402,7 +1443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1897329660870527998, guid: 34b082978e3019541b65bbf6910a34f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.19
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1897329660870527998, guid: 34b082978e3019541b65bbf6910a34f6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1514,6 +1555,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -1661,6 +1706,10 @@ PrefabInstance:
       value: HardBlock (15)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -1732,6 +1781,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -2042,6 +2095,10 @@ PrefabInstance:
       value: HardBlock (6)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -2118,6 +2175,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -2245,6 +2306,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2695,6 +2760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2762,7 +2831,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 7.023083
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2787,8 +2856,8 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.51}
-  m_LocalScale: {x: 3.28, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 6.33, z: -0.51}
+  m_LocalScale: {x: 10.701, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2805,6 +2874,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a22b8efccf5da034395dc22a74d63eef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 157781367}
 --- !u!1 &566791375
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2961,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 566791376}
     m_Modifications:
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.x
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
@@ -3082,6 +3160,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3690,6 +3772,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 566791376}
     m_Modifications:
     - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.x
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -4017,6 +4107,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -4378,6 +4472,10 @@ PrefabInstance:
       value: HardBlock (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -4511,6 +4609,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -4778,6 +4880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4965,6 +5071,10 @@ PrefabInstance:
       value: Brick (11)
       objectReference: {fileID: 0}
     - target: {fileID: 8429271777954587806, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
       propertyPath: m_Size.x
       value: 2
       objectReference: {fileID: 0}
@@ -5394,6 +5504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5656,6 +5770,10 @@ PrefabInstance:
       value: HardBlock (17)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -5720,6 +5838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5782,6 +5904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5806,7 +5932,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1897329660870527998, guid: 34b082978e3019541b65bbf6910a34f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.13
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 1897329660870527998, guid: 34b082978e3019541b65bbf6910a34f6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5915,6 +6041,10 @@ PrefabInstance:
       value: HardBlock (10)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -5978,6 +6108,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6311,6 +6445,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6593,6 +6731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goomba (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6654,6 +6796,10 @@ PrefabInstance:
     - target: {fileID: 2980490169813097581, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
       propertyPath: m_Name
       value: Goomba
+      objectReference: {fileID: 0}
+    - target: {fileID: 3832139470188685125, guid: 4815dcccbe5e624468d749fc23c7bad0, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6724,6 +6870,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -6918,6 +7068,10 @@ PrefabInstance:
       value: HardBlock (19)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -7047,6 +7201,10 @@ PrefabInstance:
       propertyPath: m_DrawMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7135,6 +7293,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 566791376}
     m_Modifications:
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.x
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
@@ -7270,6 +7436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HardBlock (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7334,6 +7504,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -7418,6 +7592,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 834494003}
     m_Modifications:
+    - target: {fileID: 2517881270498349845, guid: e3ac63a7aeabb6147bf5be7470bcecf1, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8253661073917046549, guid: e3ac63a7aeabb6147bf5be7470bcecf1, type: 3}
       propertyPath: m_Name
       value: Koopa
@@ -7652,6 +7830,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7665,6 +7847,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 566791376}
     m_Modifications:
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2057032696192616324, guid: 6cf4fb923c6abd240949d78972b35725, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
@@ -7884,6 +8074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MysteryBlock (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2850723639314813678, guid: 7b284babcee77a347954a009b5e76395, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5120519486822884279, guid: 7b284babcee77a347954a009b5e76395, type: 3}
       propertyPath: m_LocalPosition.x
       value: 130.5
@@ -8063,6 +8257,14 @@ PrefabInstance:
     - target: {fileID: 8429271777954587806, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
       propertyPath: m_DrawMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8302,6 +8504,10 @@ PrefabInstance:
       value: HardBlock
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -8497,6 +8703,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -8758,6 +8968,10 @@ PrefabInstance:
       value: HardBlock (9)
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
       value: 2
       objectReference: {fileID: 0}
@@ -8898,6 +9112,10 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 9097190668424719690, guid: 0fcadd31205c19748addc7498b0d312e, type: 3}
+      propertyPath: m_Size.x
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8972,6 +9190,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
@@ -9112,6 +9334,10 @@ PrefabInstance:
     - target: {fileID: 6302776073946585343, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_Name
       value: HardBlock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
+      propertyPath: m_Size.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8994598064168806669, guid: 102b3239b96c86b4192b6032e2bc97f4, type: 3}
       propertyPath: m_SpriteTilingProperty.drawMode
