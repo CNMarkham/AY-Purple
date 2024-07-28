@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 3832139470188685125}
   - component: {fileID: 3281080357873406431}
   - component: {fileID: -1561943426136295155}
+  - component: {fileID: -2565823792718148969}
+  - component: {fileID: -2238720645614750073}
+  - component: {fileID: 7324553034540016382}
   m_Layer: 8
   m_Name: Goomba
   m_TagString: Untagged
@@ -185,3 +188,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   direction: {x: -1, y: 0}
+--- !u!114 &-2565823792718148969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980490169813097581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed33326e36394c42b38a6f4f6d9fb4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2238720645614750073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980490169813097581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ed33326e36394c42b38a6f4f6d9fb4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7324553034540016382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2980490169813097581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69d0c994bc3fe80449289fd1da9f8520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

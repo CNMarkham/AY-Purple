@@ -42,7 +42,7 @@ public class PlayerBehavior : MonoBehaviour
 
         big = false;
 // calling Changesize which is a Coroutine
-        StartCoroutine("Changesize");
+        StartCoroutine("ChangeSize");
 
 
     }
@@ -72,7 +72,7 @@ public class PlayerBehavior : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = Vector2.up * 10;
         GetComponent<PlayerMovement>().enabled = false;
-        Destroy(gameObject, 0.5f);
+        Destroy(this.gameObject, 0.5f);
 
     }
 
