@@ -10,13 +10,16 @@ public class EnemyMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // calling the enemies
         rb = GetComponent<Rigidbody2D>();
 
         OnBecameVisible();
 
     }
+    // the enemies move only once seen
 
     private void OnBecameVisible()
+
     {
         rb.velocity = direction * speed;
 
