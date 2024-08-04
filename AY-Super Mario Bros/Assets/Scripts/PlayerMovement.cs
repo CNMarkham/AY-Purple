@@ -81,10 +81,37 @@ public class PlayerMovement : MonoBehaviour
     {
         foreach (Animator animator in GetComponentsInChildren<Animator>())
         {
-            animator.SetFloat("velocityx", rb.velocity.x);
+            animator.SetFloat("velocityX", rb.velocity.x);
             animator.SetFloat("horizontalInput", Input.GetAxis("Horizontal"));
             animator.SetBool("inAir", hit.collider == null || jumping);
 
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        float distance = 0.375f;
+        if (GetComponent<PlayerBehavior>().big)
+        {
+            distance += 1f;
+
+            
+        }
+
+        RaycastHit2D hitTop = Physics2D.CircleCast(rb.position, 0.25f, Vector2.up, distance, LayerMask.GetMask("Default"));
+
+        if (hitTop.collider != null)
+        {
+            Vector3 velocity = rb.velocity;
+            velocity.y = 0;
+            rb.velocity = velocity;
+            jumping = false;
+        }
+
+        BlockHit blockhit = hitTop.collider.gameObject.GetComponent<BlockHit>();
+        if (blockhit != null)
+        {
+            blockhit.hit();
         }
     }
 

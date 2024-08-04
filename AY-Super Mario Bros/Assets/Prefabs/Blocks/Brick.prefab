@@ -91,7 +91,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20152b3fa41b9a34ea0e0a0a97043ff7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 480432522476320571, guid: 39d9a76b68354e443a16b83701ecc33b, type: 3}
+  item: {fileID: 0}
   maxHits: 1
   emptyBlock: {fileID: 21300000, guid: 31ecaed0b77d85648ae9cd667d86f2f6, type: 3}
 --- !u!1 &1554565204090534791

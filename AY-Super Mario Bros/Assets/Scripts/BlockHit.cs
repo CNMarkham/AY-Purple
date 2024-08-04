@@ -5,7 +5,7 @@ using UnityEngine;
 public class BlockHit : MonoBehaviour
 {
     public GameObject item;
-    public int maxHits = 1;
+    public int maxHits = -1;
     public Sprite emptyBlock;
     private Animator animator;
     // Start is called before the first frame update
@@ -21,7 +21,7 @@ public class BlockHit : MonoBehaviour
             return;
         }
 
-        if(item = null)
+        if(item != null)
         {
             Instantiate(item, transform);
         }
