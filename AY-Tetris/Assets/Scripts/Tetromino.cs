@@ -18,11 +18,11 @@ public class Tetromino : MonoBehaviour
         // movement of the tertroninos
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left * Time.deltaTime * speed);
+            transform.position += Vector3.left;
 
             if (!ValidMove())
             {
-                transform.Translate(Vector3.right);
+                transform.position += Vector3.right;
             }
 
         }
@@ -30,11 +30,11 @@ public class Tetromino : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
 
-            transform.Translate(Vector3.right * Time.deltaTime * speed);
+            transform.position += Vector3.right;
 
             if (!ValidMove())
             {
-                transform.Translate(Vector3.left);
+                transform.position += Vector3.left;
             }
         }
 
@@ -46,21 +46,38 @@ public class Tetromino : MonoBehaviour
 
             if (!ValidMove())
             {
-                transform.Translate(Vector3.up);
+                transform.position += Vector3.up;
             }
         }
 
         // helps the tetronino move down every 0.8 seconds
         if (Time.time - previousTime > tempTime)
         {
-            transform.Translate(Vector3.down);
+            transform.position += Vector3.down;
 
             previousTime = Time.time;
 
             if (!ValidMove())
             {
-                transform.Translate(Vector3.up);
+                transform.position += Vector3.up;
             }
+        }
+        // checking if up arrow is pressed and the tetronino will rotate around its rotate point
+        if (Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            Vector3 convertedPoint = transform.TransformPoint(rotationPoint);
+
+            transform.RotateAround(convertedPoint, Vector3.forward, 90);
+
+            if (!ValidMove())
+            {
+                transform.RotateAround(convertedPoint, Vector3.forward, -90);
+                transform.position += Vector3.up;
+                
+
+
+            }
+
         }
 
     }
