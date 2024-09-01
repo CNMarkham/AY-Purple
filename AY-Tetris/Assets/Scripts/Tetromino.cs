@@ -11,9 +11,27 @@ public class Tetromino : MonoBehaviour
     public static int width = 10;
     public static int height = 20;
     public Vector3 rotationPoint;
+    public static Transform[,] grid = new Transform[width, height];
+    public void AddToGrid()
+    {
+       foreach(Transform child in transform)
+        {
+            int x = Mathf.RoundToInt(child.transform.position.x);
+            int y = Mathf.RoundToInt(child.transform.position.y);
+
+            grid[x, y] = child;
+
+
+        }
+
+    }
+
+
+
     // Update is called once per frame
     void Update()
     {
+        
         
         // movement of the tertroninos
         if (Input.GetKeyDown(KeyCode.LeftArrow))
@@ -60,6 +78,9 @@ public class Tetromino : MonoBehaviour
             if (!ValidMove())
             {
                 transform.position += Vector3.up;
+                this.enabled = false;
+                AddToGrid();
+                FindAnyObjectByType<Spawner>().SpawnTetromino();
             }
         }
         // checking if up arrow is pressed and the tetronino will rotate around its rotate point
@@ -97,6 +118,13 @@ public class Tetromino : MonoBehaviour
 
             if (y < 0 || y >= height)
             {
+                return false;
+            }
+
+
+            if (grid[x, y] != null)
+            {
+
                 return false;
             }
         }

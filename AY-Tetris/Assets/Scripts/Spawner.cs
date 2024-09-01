@@ -11,7 +11,7 @@ public class Spawner : MonoBehaviour
         SpawnTetromino();
     }
 
-    void SpawnTetromino()
+    public void SpawnTetromino()
     {
         int randNum = Random.Range(0, tetrominoes.Length);
         GameObject randomTetromino = tetrominoes[randNum];
@@ -19,5 +19,34 @@ public class Spawner : MonoBehaviour
 
 
     }
+
+    public void CheckLines()
+    {
+        for(int i =
+
+
+    }
+
+    public bool HasLine(int i)
+    {
+
+
+    }
+
+    public void  DeleteLine(int i)
+    {
+
+
+    }
+
+    public void Rowdown(int i)
+    {
+
+
+    }
+
+
+
+
 
 }

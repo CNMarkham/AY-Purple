@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 8642160324772087112}
   - component: {fileID: 4722985188489514160}
   - component: {fileID: 7548446881673431463}
-  - component: {fileID: 1643093983370183648}
   m_Layer: 0
   m_Name: O Tetromino
   m_TagString: Untagged
@@ -273,21 +272,6 @@ MonoBehaviour:
   speed: 100
   fallTime: 0.8
   rotationPoint: {x: 0.5, y: 0.5, z: 0}
---- !u!114 &1643093983370183648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5021464699580320346}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9efba87dea5b9eb4db53ca693b002989, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 100
-  fallTime: 0.8
-  rotationPoint: {x: 0, y: 0, z: 0}
 --- !u!1 &5047657479448841594
 GameObject:
   m_ObjectHideFlags: 0

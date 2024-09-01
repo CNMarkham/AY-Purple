@@ -347,7 +347,6 @@ GameObject:
   - component: {fileID: 3676005855717559073}
   - component: {fileID: 4188115081196491828}
   - component: {fileID: 2367779924042188914}
-  - component: {fileID: 9036929147524081987}
   m_Layer: 0
   m_Name: Other LTetromino
   m_TagString: Untagged
@@ -427,21 +426,6 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &2367779924042188914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6116767515807828854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9efba87dea5b9eb4db53ca693b002989, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 100
-  fallTime: 0.8
-  rotationPoint: {x: 0, y: 0, z: 0}
---- !u!114 &9036929147524081987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
