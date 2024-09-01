@@ -20,30 +20,7 @@ public class Spawner : MonoBehaviour
 
     }
 
-    public void CheckLines()
-    {
-        for(int i =
-
-
-    }
-
-    public bool HasLine(int i)
-    {
-
-
-    }
-
-    public void  DeleteLine(int i)
-    {
-
-
-    }
-
-    public void Rowdown(int i)
-    {
-
-
-    }
+  
 
 
 
